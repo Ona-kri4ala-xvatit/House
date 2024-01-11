@@ -12,3 +12,46 @@ body {
   margin: 0;
   font-family: 'Raleway-Medium', sans-serif;
 }
+
+.site-inner {
+  margin: 0 auto;
+}
+
+.site-header-main-panel {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px 166px;
+  background-color: #E1EDE6;
+}
+
+.site-logo {
+  width: 143px;
+  background-image: url(img/Ink.House.png);
+  background-repeat: no-repeat;
+}
+
+.top-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.top-menu-item {
+  margin-right: 60px;
+}
+
+.top-menu-item:last-child {
+  margin-right: 0;
+}
+
+.top-menu-item-icon {
+  background-image: url(img/basket.png);
+  background-repeat: no-repeat;
+}
+
+.site-header-block-wrapper {
+  background-image: url(img/head-backgroud.png);
+  background-repeat: no-repeat;
+  
+}
