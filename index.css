@@ -40,6 +40,7 @@ button {
   padding: 0;
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
 .top-menu-item {
@@ -181,7 +182,7 @@ button {
 }
 
 .site-mid-panel-wrapper {
-  background-image: url(img/block-background.jpeg);
+  background-image: url(img/block-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 70px;
@@ -189,13 +190,14 @@ button {
 
 .mid-panel-text-block {
   padding: 70px 0 70px 165px;
-  /* width: 540px; */
+  width: 540px;
 }
 
 .mid-panel-title {
   width: 521px;
   background-image: url(img/Star1.png);
   background-repeat: no-repeat;
+  background-position: left;
   padding-left: 100px;
   color: #F4F6F5;
   font-size: 40px;
@@ -217,4 +219,111 @@ button {
   text-align: center;
   font-size: 20px;
   cursor: pointer;
+}
+
+.site-footer-block-about-wrapper {
+  width: 1110px;
+  margin: 0 auto;
+  color: #2C2D35;
+}
+.about-stub-img {
+  margin-right: 30px;
+}
+
+.footer-block-about-inner{
+  display: flex;
+  margin-bottom: 70px;
+  background-color: #F4F6F5;
+}
+
+.footer-block-about {
+  width: 635px;
+  padding-top: 124px;
+}
+
+.about-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.about-decription {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.about-img-item {
+  margin-right: 30px;
+}
+
+.about-img-item:last-child {
+  margin-right: 0px;
+}
+
+.site-footer-panel {
+  background-color: #E1EDE6;
+  display: flex;
+  padding: 23px 166px;
+  
+}
+
+.footer-info {
+  margin-right: 115px;
+}
+
+.footer-info-logo {
+  margin-bottom: 41px;
+}
+
+.footer-info-number {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #2C2D35;
+}
+
+.footer-info-text {
+  font-size: 18px;
+  color: #86928B;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  list-style: none;
+  margin-right: 256px;
+}
+
+.footer-menu-item-title {
+  font-size: 20px;
+  color: #2C2D35;
+}
+
+.footer-menu-item {
+  font-size: 18px;
+  color: #86928B; /*!!*/
+  margin-bottom: 6px;
+}
+
+.footer-menu-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-social-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social-item {
+  padding-right: 32px;
+  margin-bottom: 13px;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  color: #86928B;
+}
+
+.copyright-title {
+  margin-bottom: 6px;
 }
