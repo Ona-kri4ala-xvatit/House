@@ -53,12 +53,12 @@ button {
   padding: 0;
   display: flex;
   align-items: center;
-  color: #2C2D35;
 }
 
 .top-menu-item {
   margin-right: 58px;
   font-size: 23px;
+  color: #2C2D35;
 }
 
 .top-menu-item:last-child {
@@ -335,11 +335,11 @@ button {
 .footer-social-items {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 132px;
 }
 
 .footer-social-item {
-  padding-right: 32px;
   margin-bottom: 13px;
 }
 
